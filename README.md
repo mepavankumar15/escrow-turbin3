@@ -47,13 +47,4 @@ No intermediary needed. Everything is validated and executed on-chain.
 
 ---
 
-## 🚀 Quick Start
-
-### Prerequisites
-- Rust 1.70+
-- Anchor 0.32.0
-- Solana CLI
-- Node.js 16+
-
-### Installation
 
