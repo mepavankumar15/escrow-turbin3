@@ -1,17 +1,17 @@
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
-import { AnchorEscrow } from "../target/types/anchor_escrow";
+import { AnchorSwapEscrow } from "../target/types/anchor_swap_escrow";
 import {
   createMint,
   getOrCreateAssociatedTokenAccount,
   mintTo,
 } from "@solana/spl-token";
 
-describe("atomic_escrow", () => {
+describe("atomic_swap_escrow", () => {
   const provider = anchor.AnchorProvider.env();
   anchor.setProvider(provider);
 
-  const program = anchor.workspace.AnchorEscrow as Program<AnchorEscrow>;
+  const program = anchor.workspace.AnchorEscrow as Program<AnchorSwapEscrow>;
 
   let maker: anchor.web3.Keypair;
   let taker: anchor.web3.Keypair;
