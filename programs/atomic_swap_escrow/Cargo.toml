@@ -1,12 +1,12 @@
 [package]
-name = "atomic_swap_escrow"
+name = "atomic_escrow"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "atomic_swap_escrow"
+name = "atomic_escrow"
 
 [features]
 default = []
