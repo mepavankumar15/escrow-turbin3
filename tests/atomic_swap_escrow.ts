@@ -7,7 +7,7 @@ import {
   mintTo,
 } from "@solana/spl-token";
 
-describe("atomic_swap_escrow", () => {
+describe("atomic_escrow", () => {
   const provider = anchor.AnchorProvider.env();
   anchor.setProvider(provider);
 
