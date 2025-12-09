@@ -11,7 +11,7 @@ describe("atomic_swap_escrow", () => {
   const provider = anchor.AnchorProvider.env();
   anchor.setProvider(provider);
 
-  const program = anchor.workspace.AnchorEscrow as Program<AnchorSwapEscrow>;
+  const program = anchor.workspace.AnchorSwapEscrow as Program<AnchorSwapEscrow>;
 
   let maker: anchor.web3.Keypair;
   let taker: anchor.web3.Keypair;
