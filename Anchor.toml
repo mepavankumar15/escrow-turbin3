@@ -6,7 +6,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-atomic_swap_escrow = "5dF3PhfLpFoN3cTdEj7DpDNAtroSJRJ4uFZbVysZnrQm"
+atomic_escrow = "5dF3PhfLpFoN3cTdEj7DpDNAtroSJRJ4uFZbVysZnrQm"
 
 [registry]
 url = "https://api.apr.dev"
