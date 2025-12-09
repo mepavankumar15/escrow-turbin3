@@ -12,7 +12,7 @@ pub use state::*;
 declare_id!("5dF3PhfLpFoN3cTdEj7DpDNAtroSJRJ4uFZbVysZnrQm");
 
 #[program]
-pub mod anchor_escrow {
+pub mod anchor_swap_escrow {
     use super::*;
 
     pub fn make(ctx: Context<Make>, seed: u64, deposit: u64, receive: u64) -> Result<()> {
